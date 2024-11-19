@@ -1,0 +1,48 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    height: 94vh;
+
+}
+.logo {
+    padding-left: 50px;
+    text-align: center;
+    color: gray;
+    align-items: center;
+    display: flex;
+    gap: 2px;
+}
+.logo img {
+    width: 30px;
+    transition: 0.5s ease-in-out;
+
+}
+.Menu--list{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2px;
+}
+.Menu--list .item{
+    display: flex;
+    align-items: center;
+    gap : 20px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #27374d;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px ;
+    transition: 0.3s ease-in-out;
+    
+}
+.Menu--list .item:hover{
+    background: #27374d;
+    color: #dde6ed;
+    
+}
+.Menu--list .item img {
+    width: 30px;
+    color: red;
+}
